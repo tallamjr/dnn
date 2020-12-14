@@ -1,10 +1,8 @@
 import tensorflow as tf
 
-from model.layers import *
-
 
 class Siamese(tf.keras.Model):
-    def __init__(self, num_classes):
+    def __init__(self):
         super(Siamese, self).__init__()
 
         self.flatten = tf.keras.layers.Flatten(name="flatten_input")
