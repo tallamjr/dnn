@@ -4,7 +4,7 @@ Implementation of the **ResNet** architecture. For this implementation, there ar
 __mini__ version, shown here:
 
 <p>
-    <img src="data/mini-resnet.png"/>
+    <img src="data/mini-resnet.png" height="100"/>
 </p>
 
 as well as a deep version, __resnet34__, shown here:
