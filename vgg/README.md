@@ -2,7 +2,9 @@
 
 Implementation of the **VGG16** architecture outlined below.
 
-![]("/vgg/data/VGG.png")
+<p>
+    <img src="data/VGG.png" width="220" height="240" />
+</p>
 
 VGG16 consists of several blocks of 2D convolutions followed by a max pooling. The convolutions are
 repeated twice in the first phase of the model, and then three times in the latter stages.
