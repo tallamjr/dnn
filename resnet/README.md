@@ -4,23 +4,23 @@ Implementation of the **ResNet** architecture. For this implementation, there ar
 __mini__ version, shown here:
 
 <p>
-    <img src="data/mini-resnet.png" height="100"/>
+    <img src="data/mini-resnet.png" height="400"/>
 </p>
 
 as well as a deep version, __resnet34__, shown here:
 
 <p>
-    <img src="data/resent-34-overview.png"/>
+    <img src="data/resent-34-overview.png" height="500"/>
 </p>
 
 Where the blue and orange blocks are defined as follows:
 
 <p>
-    <img src="data/identity-block.png"/>
+    <img src="data/identity-block.png" height="350"/>
 </p>
 
 <p>
-    <img src="data/idenity-block-with-residual.png"/>
+    <img src="data/idenity-block-with-residual.png" height="450"/>
 </p>
 
 
