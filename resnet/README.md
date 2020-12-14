@@ -7,7 +7,7 @@ __mini__ version, shown here:
     <img src="data/mini-resnet.png" height="400"/>
 </p>
 
-as well as a deep version, __resnet34__, shown here:
+as well as a deeper version, __ResNet34__ shown here:
 
 <p>
     <img src="data/resent-34-overview.png" height="500"/>
@@ -16,11 +16,11 @@ as well as a deep version, __resnet34__, shown here:
 Where the blue and orange blocks are defined as follows:
 
 <p>
-    <img src="data/identity-block.png" height="350"/>
+    <img src="data/identity-block.png" height="400"/>
 </p>
 
 <p>
-    <img src="data/idenity-block-with-residual.png" height="450"/>
+    <img src="data/idenity-block-with-residual.png" height="400"/>
 </p>
 
 
