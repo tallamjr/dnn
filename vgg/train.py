@@ -1,7 +1,7 @@
 import tensorflow as tf
 import tensorflow_datasets as tfds
 
-from model.vggmodel import MyVGG
+from model.vgg16 import MyVGG
 
 dataset = tfds.load('cats_vs_dogs', split=tfds.Split.TRAIN, data_dir='data/')
 
