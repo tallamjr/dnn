@@ -83,10 +83,6 @@ input_b = tf.keras.Input(
 vect_output_b = base_network(input_b)
 
 # measure the similarity of the two vector outputs
-# output = tf.keras.layers.Lambda(
-#     lambda tensors: tf.keras.backend.abs(tensors[0] - tensors[1])
-# )([vect_output_a, vect_output_b])
-
 output = tf.keras.layers.Lambda(euclidean_distance, name="output_layer", output_shape=eucl_dist_output_shape)([vect_output_a, vect_output_b])
 
 # specify the inputs and output of the model
