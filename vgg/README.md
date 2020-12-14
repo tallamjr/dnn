@@ -3,7 +3,7 @@
 Implementation of the **VGG16** architecture outlined below.
 
 <p>
-    > <img src="data/VGG.png" width="220" height="240" />
+    <!<img src="data/VGG.png" width="220" height="240" />
     <img src="data/VGG.png"/>
 </p>
 
