@@ -16,13 +16,8 @@ as well as a deeper version, __ResNet34__ shown here:
 Where the blue and orange blocks are defined as follows:
 
 <p>
-    <img src="data/identity-block.png" height="400"/>
+    <img src="data/blocks-combined.png" height="400"/>
 </p>
-
-<p>
-    <img src="data/idenity-block-with-residual.png" height="400"/>
-</p>
-
 
 ## Training
 
