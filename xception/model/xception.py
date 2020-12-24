@@ -11,10 +11,14 @@ class Xception(tf.keras.Model):
         self.entry_flow = EntryFlow()
         self.middle_flow = [MiddleFlow() for _ in range(8)]
         self.exit_flow = ExitFlow()
+        self.dense = tf.keras.layers.Dense(32)
 
     def call(self, inputs, training=None):
         x = self.entry_flow(inputs, training=training)
         for layer in self.middle_flow:
             x = layer(x, training=training)
         output = self.exit_flow(x, training=training)
+        output = self.dense(output)
         return output
+
+
