@@ -6,3 +6,5 @@ my research and for building custom networks.
 
 > _What I cannot create, I do not understand._
 > --- **Richard P. Feynman**
+
+![](https://imgs.xkcd.com/comics/python.png)
