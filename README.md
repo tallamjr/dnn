@@ -1,7 +1,6 @@
-# `dnn`
-Implementations of Deep Neural Networks in Tensorflow 2.x
+# `dnn`: Implementations of Deep Neural Networks in Tensorflow 2.x
 
-The goal is to implement these architectures using the `tf.keras` Subclass API for reusable models in
+The goal is to implement these architectures using the Python `tf.keras` Subclass API for reusable models in
 my research and for building custom networks.
 
 > _What I cannot create, I do not understand._
