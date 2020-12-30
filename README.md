@@ -5,5 +5,4 @@ The goal is to implement these architectures using the `tf.keras` Subclass API f
 my research and for building custom networks.
 
 > _What I cannot create, I do not understand._
-
---- *Richard P. Feynman*
+> --- **Richard P. Feynman**
